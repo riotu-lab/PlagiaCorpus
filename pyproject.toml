@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plagiacorpus"
+version = "1.0.0"
+description = "Code to build and validate PlagiaCorpus, a bilingual (Arabic-English) dataset for forensic plagiarism detection."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "numpy>=1.23",
+    "scikit-learn>=1.2",
+    "requests>=2.28",
+    "tqdm>=4.64",
+]
+
+[project.optional-dependencies]
+# Steps 1-2 (Wikipedia crawl, HF datasets, Qwen2.5-14B-Instruct via Transformers)
+generation = [
+    "torch>=2.1",
+    "transformers>=4.43",
+    "accelerate>=0.30",
+    "datasets>=2.18",
+    "wikipedia>=1.4",
+]
+# Steps 9-11 (language identification, annotation sheets)
+analysis = [
+    "langdetect>=1.0.9",
+    "pycountry>=22.3",
+    "pandas>=1.5",
+    "openpyxl>=3.1",
+]
+all = ["plagiacorpus[generation,analysis]"]
+
+[tool.setuptools]
+packages = ["plagiacorpus"]
