@@ -4,7 +4,7 @@ Code for building and validating **PlagiaCorpus: A Bilingual, Adversarial, and C
 
 PlagiaCorpus contains **243,529** Arabic and English text records: a source corpus of **38,737** reference passages and **204,792** queries (184,312 train / 20,480 test). The queries cover five text-reuse classes of increasing difficulty and a Safe (negative) class.
 
-**Dataset:** `https://huggingface.co/datasets/<ORG>/PlagiaCorpus` <!-- TODO: replace with the final dataset URL -->
+**Dataset:** [PlagiaCorpus on Hugging Face](https://huggingface.co/datasets/riotu-lab/PlagiaCorpus)
 
 ## Repository structure
 
