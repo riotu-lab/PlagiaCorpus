@@ -165,7 +165,7 @@ The code is released under the [MIT License](LICENSE). The dataset is distribute
 
 ## Acknowledgments
 
-This project was funded by the Saudi Ministry of Commerce. The authors acknowledge the support of Prince Sultan University.
+This project was funded by the Saudi Ministry of Culture. The authors acknowledge the support of Prince Sultan University.
 
 ## Citation
 
