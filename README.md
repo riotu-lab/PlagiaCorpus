@@ -196,7 +196,6 @@ Each file is provided in JSON and Parquet.
 
 * LLM generation uses stochastic decoding without fixed seeds, and the Wikipedia crawl reflects the encyclopedia at the time of the crawl (April 2026). Regenerating the data therefore gives a dataset that is comparable to the released one but not identical. The released files are the reference version.
 * Sampling of Class 5 sources, the curation steps, the train/test split and the annotation sample all use seed 42.
-* The human annotation (Table 8) was carried out on a sample drawn before curation; `11_annotation_agreement.py` reproduces it from the sheets in [`annotation/`](annotation/README.md).
 
 ## License
 
