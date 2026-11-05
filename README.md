@@ -207,17 +207,15 @@ This research was conducted with the support of the Cultural Research Grants Pro
 
 ## Citation
 
-If you use PlagiaCorpus, please cite the dataset:
+If you use PlagiaCorpus, please cite this paper:
 
 ```bibtex
-@misc{adel_ammar_2026,
-  author    = {Adel Ammar and Serry Sibaee and Wadii Boulila},
-  title     = {PlagiaCorpus (Revision c603a43)},
-  year      = {2026},
-  url       = {https://huggingface.co/datasets/riotu-lab/PlagiaCorpus},
-  doi       = {10.57967/hf/11369},
-  publisher = {Hugging Face}
+@article{ammar2026plagiacorpus,
+  title         = {PlagiaCorpus: A Bilingual, Adversarial, and Cross-Lingual Dataset for Forensic Plagiarism Detection},
+  author        = {Ammar, Adel and Sibaee, Serry and Boulila, Wadii},
+  journal       = {arXiv preprint arXiv:2611.02940},
+  year          = {2026},
+  doi           = {10.48550/arXiv.2611.02940},
+  url           = {https://arxiv.org/abs/2611.02940}
 }
 ```
-
-The citation of the accompanying article will be added upon publication.
